@@ -2,7 +2,7 @@ const rock = "rock";
 const paper = "paper";
 const scissors = "scissors";
 const cpuMoves = ["rock", "paper", "scissors"];
-const userInput = prompt("choose: rock, paper, scissors", "rock");
+const userInput = prompt("choose: rock, paper, scissors", "rock").toLowerCase();
 let p1 = userInput;
 let p2 = cpuMoves[Math.floor(Math.random() * cpuMoves.length)];
 
